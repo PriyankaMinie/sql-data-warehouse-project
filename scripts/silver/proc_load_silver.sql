@@ -165,7 +165,7 @@ BEGIN
         ---------------------------------------------------------------------------------------------------------
         SET @start_time = GETDATE();
         PRINT '<<Truncating Table: silver.erp_loc_a101>>'
-        TRUNCATE TABLE silver.erp_cust_az12
+        TRUNCATE TABLE silver.erp_loc_a101
         PRINT '<<Inserting Data Into Table: silver.erp_loc_a101>>'
 
         INSERT INTO silver.erp_loc_a101 (
@@ -187,7 +187,7 @@ BEGIN
         ---------------------------------------------------------------------------------------------------------
         SET @start_time = GETDATE();
         PRINT '<<Truncating Table: silver.erp_px_cat_g1v2>>'
-        TRUNCATE TABLE silver.erp_cust_az12
+        TRUNCATE TABLE silver.erp_px_cat_g1v2
         PRINT '<<Inserting Data Into Table: silver.erp_px_cat_g1v2>>'
 
         INSERT INTO silver.erp_px_cat_g1v2 (
